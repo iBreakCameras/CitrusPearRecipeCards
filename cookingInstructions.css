@@ -1,0 +1,177 @@
+<style>
+
+@media print{@page {
+    size: landscape;
+    margin: 0mm;
+}
+}
+
+@font-face {
+    font-family: "Debby";
+    src: url(Debby.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Lato1";
+    src: url(Lato/Lato-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Lato2";
+    src: url(Lato/Lato-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(Bebas.ttf) format('truetype');
+}
+
+hr {
+    height: 1px; 
+    width: 50%;
+}
+
+/* Fonts used Debby=cursive; Lato=regular Bebas=nutricircle; */
+h1 {
+    text-align: center;
+    font-family: "Debby","Zapf Chancery",Cursive;
+    font-size: 0.68in;
+}
+
+h4 {
+    text-align: center;
+    font-family: "Lato1",Arial,sans-serif;
+    font-size: 0.25in;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: disc;
+    font-family: "Lato2",Arial,sans-serif;
+    font-size: 0.17in;
+}
+
+li {
+    padding: 0in 0in 0.20in 0in;
+}
+
+body {
+    background-color: transparent;
+    width: 11in;
+    height: 8.5in;
+}
+
+#postPicture {
+    font-family: "Lato2",Arial,sans-serif;
+    font-size: 0.20in;
+    text-align: justify;
+}
+
+#siteURL {
+    text-align: center;
+    font-family: "Lato2",Arial,sans-serif;
+    font-size: 0.45in;
+    color: #b8d54f;
+}
+
+#disclaimerUSDA {
+    font-family: "Lato2",Arial,sans-serif;
+    font-size: 0.12in;
+}
+
+#disclaimerNutrition {
+    font-family: "Lato2",Arial,sans-serif;
+    font-size: 0.18in;
+}
+
+.containerHalfPage {
+    width: 5.50in;
+    height: 8.00in;
+}
+
+.containerRecipe {
+    width: 5.50in;
+    height: 8.00in;
+}
+    /*
+tipsHeader {
+    text-align: center;
+    font-family: "";
+}
+
+recipeName {
+    text-align: left;
+    font-size: 20px;
+}
+
+recipeFooter {
+    text-align: left;
+    font-size: 14px;
+}
+
+recipeUpperRight {
+    text-align: right;
+    text-transform: uppercase;
+    text-color: #cdcdcd;
+}
+
+recipeStrongerFlavor {
+    text-align: left;
+    text-size: 14px;
+{
+
+recipeServesCallOut {
+    text-align: left;
+    text-size: 16px;
+}
+
+recipeServesText {
+    text-align: left;
+    text-size: 14px;
+    text-indent: 5px;
+}
+
+recipeSubCallOut {
+    text-align: left;
+    text-indent: 5px;
+}
+
+recipeSubText {
+    text-align: left;
+}
+ */
+
+.nutritionBox {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.halfCircleTop {
+    height: 45px;
+    width: 90px;
+    border-radius: 90px 90px 0 0;
+    background: #fec874;
+}
+
+.nutritionFactTop {
+    position: relative;
+    float: left;
+    transform: translate(240%, -400%);
+}
+
+.halfCircleBottom {
+    height: 45px;
+    width: 90px;
+    border-radius: 0 0 90px 90px;
+    background: #b8d54f;
+}
+
+.nutritionFactBottom {
+    position: relative;
+    float: left;
+    transform: translate(100%, -200%);
+}
+
+</style>
